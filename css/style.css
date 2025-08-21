@@ -1,0 +1,93 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: 'Open Sans', sans-serif;
+scroll-behavior: smooth;
+}
+
+.hero-section {
+background: url('../img/index_img/img_bg_2.jpg') no-repeat center center/cover;
+position: relative;
+height: 100vh;
+color: white;
+}
+
+.overlay {
+background-color: rgba(0, 0, 0, 0.5);
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.logo {
+font-family: 'Dancing Script', cursive;
+font-size: 2.4rem;
+}
+
+.nav-link {
+color: white !important;
+}
+
+.center-content {
+z-index: 2;
+}
+
+.countdown-circle {
+background-color: rgba(255, 192, 203, 0.7); /* Light pink with opacity */
+width: 80px;
+height: 80px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: black;
+}
+
+.save-btn {
+border: 2px solid white;
+border-radius: 30px;
+color: #ff69b4;
+background-color: transparent;
+padding: 10px 20px;
+font-weight: bold;
+transition: 0.3s ease;
+}
+
+.save-btn:hover {
+background-color: white;
+color: #ff69b4;
+}
+.custom-placeholder::placeholder {
+color: rgba(255, 255, 255, 0.8)!important;
+}
+
+.text-pink {
+color: rgb(241, 78, 149);
+}
+
+.footer-link {
+text-decoration: none;
+color: #fff;
+transition: color 0.3s ease;
+display: inline-block;
+margin-bottom: 6px;
+}
+
+.footer-link:hover {
+color: rgb(241, 78, 149);
+}
+
+.social-icon {
+color: #fff;
+font-size: 1.4rem;
+transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+color: rgb(241, 78, 149);
+transform: scale(1.2);
+}
